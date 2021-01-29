@@ -40,7 +40,7 @@ i.fab {
 
 .wave {
   animation-name: wave-animation;
-  animation-duration: 2.5s;        
+  animation-duration: 2s;        
   animation-iteration-count: infinite;  
   transform-origin: 70% 70%;       
   display: inline-block;
