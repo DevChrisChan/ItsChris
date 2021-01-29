@@ -1,5 +1,6 @@
 /* hello what are you doing here */
 
+/* body styling */
 body {
   background: #2c2f33;
   color: #f3f3f3;
@@ -27,4 +28,10 @@ body {
   padding: 12px 24px;
   border-radius: 8px;
   text-decoration: none;
+}
+
+/* fontawesome styling */
+
+i.fab {
+  color: #f3f3f3;
 }
