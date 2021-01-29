@@ -4,10 +4,14 @@ body {
   background: #2c2f33;
   font-family: system-ui;
   color: #f3f3f3;
-  
+
 .top {
   padding-top: 30%;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 640px;
 }
+  
 .title {
   font-weight: normal;
   font-size: 3rem;
