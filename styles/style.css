@@ -39,8 +39,6 @@ i.fab {
 /* waving animation */
 
 .waver {
-  font-size: 95pt;
-  text-align: center;
   animation: waver 0.5s alternate infinite;
   transform-origin: 50% 90%;
   animation-timing-function: ease-in-out;
