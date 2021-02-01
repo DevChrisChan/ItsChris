@@ -33,11 +33,12 @@ body {
 }
 
 a {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 7px;
   text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+  color: #FFFFFF;
 }
 
 .box {
