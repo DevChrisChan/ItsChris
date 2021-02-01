@@ -40,6 +40,12 @@ a:hover {
   text-decoration: underline;
 }
 
+.box {
+  border: 3px solid #f3f3f3;
+  border-radius: 30px;
+  background: none;
+}
+
 /* fontawesome styling */
 
 i.fab {
@@ -67,11 +73,3 @@ i.fab {
   100% { transform: rotate( 0.0deg) }
 }
 
-/* footer */
-
-.footer {
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   position: absolute;
-}
