@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>ItsChris - Blogs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="ItsChris' Website -Blogs" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://itschris.tk/" />
+  <meta property="og:image" content="" />
+  <meta property="og:description" content="ItsChris' personal site. You could find his blogs here." />
+  <meta property="theme-color" content="#2c2f33" />
+  <link rel="stylesheet" href="/styles/style.css" />
+  <script src="https://kit.fontawesome.com/2f75161355.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="top">
+     <h1 class="title">My First Blog :D</h1>
+     <p class="description">
+      This is my first blog :D<br>
+      I've remade my website entirely and I hope you like it!<br>
+      In my blogs I'll talk about some of my projects!
+    </p>
+    </body>
+</html>
+
