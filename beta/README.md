@@ -1,1 +1,1 @@
-https://itschris.tk
+https://itschris.tk/beta
