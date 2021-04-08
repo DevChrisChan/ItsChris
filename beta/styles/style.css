@@ -4,8 +4,9 @@
 
 body{
   background-color:#F8F9F9;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .title{
   text-align: center;
