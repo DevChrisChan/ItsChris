@@ -4,10 +4,11 @@
 
 body{
   background-color:#F8F9F9;
+  display: grid;
+  place-items: center;
 }
 .title{
   text-align: center;
-  padding-top: 20px;
   font-weight: 700;
 }
 
