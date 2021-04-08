@@ -13,10 +13,6 @@ body {
 .title {
   text-align: center;
   font-weight: 700;
-  color: #f12711;
-  color: -webkit-linear-gradient(to right, #f5af19, #f12711);
-  color: linear-gradient(to right, #f5af19, #f12711);
-
 }
 
 .name {
