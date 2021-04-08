@@ -13,6 +13,10 @@ body {
 .title {
   text-align: center;
   font-weight: 700;
+  background: #f12711;
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+background: linear-gradient(to right, #f5af19, #f12711);
+
 }
 
 /* fontawesome styling */
