@@ -2,14 +2,11 @@
 
 /* body styling */
 
-* {
+body {
+  background-color:#F8F9F9;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-  
-body {
-  background-color:#F8F9F9;
 }
 .title {
   text-align: center;
