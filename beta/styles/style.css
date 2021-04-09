@@ -50,6 +50,39 @@ body {
 .spacer {
   line-height:12px;
 }
+
+/* Card credits to Alombi (https://github.com/alombi/alombi.github.io/blob/master/Stylesheets/main.css)*/
+
+.card{
+    border-radius: 14px;
+    width: 98%;
+    background-color: white;
+    padding: 4px;
+    margin-bottom: 15px;
+}
+.card-title{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+.card-description{
+    margin-top: -10px;
+    padding-left: 10px;
+    opacity: 0.7;
+}
+.card-footer{
+    padding-bottom: 25px;
+    padding-left: 10px;
+    margin-top: -15px;
+    opacity: 0.5;
+    font-weight:700;
+    font-size: 13px;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
 /* fontawesome styling */
 
 i.fab {
