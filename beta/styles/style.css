@@ -4,6 +4,13 @@
 
 body {
   background-color:#F8F9F9;
+  margin: 0;
+  padding: 0;
+}
+
+.notdiv {
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
