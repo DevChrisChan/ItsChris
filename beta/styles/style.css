@@ -28,7 +28,8 @@ p {
 .nav {
   overflow: hidden;
   border-radius: 8px;
-  background-color: #F5F5F5;
+  background-color: #2c2f33;
+  color: #ffffff;
   top: 0px;
 }
 
@@ -75,4 +76,9 @@ i.fab {
    body{
         background-color: #2c2f33;
     }
+   
+   .nav {
+     background-color: #f8f9f9;
+     color: #2c2f33;
+  }
 }
