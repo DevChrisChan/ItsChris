@@ -19,6 +19,12 @@ body {
   font-family: 'Pacifico', cursive;
 }
 
+.nav {
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #F5F5F5;
+  top: 0px;
+}
 /* fontawesome styling */
 
 i.fab {
