@@ -4,17 +4,14 @@
 
 body {
   background-color:#F8F9F9;
-}
-
-.notnav {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-  
+
 .title {
-  text-align: center;
+  text-align: center; 
   font-weight: 10vw;
   display: flex;
   flex-direction: column;
@@ -27,24 +24,24 @@ body {
 }
 
 .nav {
-  overflow: hidden;
-  border-radius: 8px;
-  background-color: #f8f9f9;
+  overflow: hidden; !important
+  border-radius: 8px; !important
+  background-color: #f8f9f9; 
   color: #ffffff;
-  top: 0px;
-  opacity: 0.7;
-  position: sticky;
+  top: 0px; !important
+  opacity: 0.7; !important
+  position: sticky; !important
 }
 
 .nav a {
-  float: left;
-  display: block;
+  float: left; !important
+  display: block; !important
   color: #AAAAAA;
-  text-align: center;
-  padding: 12px 14px;
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: 400;
+  text-align: center; !important
+  padding: 12px 14px; !important
+  text-decoration: none; !important
+  font-size: 17px; !important
+  font-weight: 400; !important
         }
 /* fontawesome styling */
 
