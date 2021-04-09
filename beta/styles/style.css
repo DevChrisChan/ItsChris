@@ -20,24 +20,24 @@ body {
 }
 
 .nav {
-  overflow: hidden; !important
-  border-radius: 8px; !important
+  overflow: hidden !important; 
+  border-radius: 8px !important; 
   background-color: #f8f9f9; 
   color: #ffffff;
-  top: 0px; !important
-  opacity: 0.7; !important
-  position: sticky; !important
+  top: 0px !important; 
+  opacity: 0.7 !important; 
+  position: sticky !important;
 }
 
 .nav a {
-  float: left; !important
-  display: block; !important
+  float: left !important; 
+  display: block !important;
   color: #AAAAAA;
-  text-align: center; !important
-  padding: 12px 14px; !important
-  text-decoration: none; !important
-  font-size: 17px; !important
-  font-weight: 400; !important
+  text-align: center !important;
+  padding: 12px 14px !important;
+  text-decoration: none !important;
+  font-size: 17px !important; 
+  font-weight: 400 !important;
         }
 /* fontawesome styling */
 
