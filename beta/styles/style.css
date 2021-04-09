@@ -45,7 +45,11 @@ body {
   text-decoration: none;
   font-size: 17px;
   font-weight: 400;
-        }
+}
+
+.spacer {
+  line-height:12px;
+}
 /* fontawesome styling */
 
 i.fab {
