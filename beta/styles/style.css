@@ -117,7 +117,7 @@ i.fab {
         background-color: #2c2f33;
     }
    
-   .nav {
+   .nav, .nav a {
      background-color: #2c2f33;
      color: #ffffff;
   }
