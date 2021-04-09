@@ -31,6 +31,17 @@ p {
   background-color: #F5F5F5;
   top: 0px;
 }
+
+.nav a {
+  float: left;
+  display: block;
+  color: #AAAAAA;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+        }
 /* fontawesome styling */
 
 i.fab {
