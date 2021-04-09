@@ -4,27 +4,22 @@
 
 body {
   background-color:#F8F9F9;
-  margin: 0;
-  padding: 0;
 }
 
-.notdiv {
-  /*height: 100vh;
-  width: 100vw;*/
-  padding: 0;
-  margin: 0;
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 20%;
-  width: 90%;
-  margin: 0 auto;
-  line-height: 1.5rem;
+.notnav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
+  
 .title {
-  text-align: center; 
+  text-align: center;
   font-weight: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .name {
@@ -32,26 +27,25 @@ body {
 }
 
 .nav {
-  overflow: hidden !important; 
-  border-radius: 8px !important; 
-  background-color: #f8f9f9; 
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #f8f9f9;
   color: #ffffff;
-  top: 0px !important; 
-  opacity: 0.7 !important; 
-  position: sticky !important;
+  top: 0px;
+  opacity: 0.7;
+  position: sticky;
 }
 
 .nav a {
-  float: left !important; 
-  display: block !important;
+  float: left;
+  display: block;
   color: #AAAAAA;
-  text-align: center !important;
-  padding: 12px 14px !important;
-  text-decoration: none !important;
-  font-size: 17px !important; 
-  font-weight: 400 !important;
-}
-
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+        }
 /* fontawesome styling */
 
 i.fab {
