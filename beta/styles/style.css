@@ -24,6 +24,7 @@ body {
 
 .name {
   font-family: 'Pacifico', cursive;
+  white-space: nowrap;
 }
 
 .nav {
