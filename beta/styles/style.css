@@ -48,6 +48,14 @@ body {
   line-height:12px;
 }
 
+.social {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 7px;
+  text-decoration: none;
+}
+
 /* Card credits to Alombi (https://github.com/alombi/alombi.github.io/blob/master/Stylesheets/main.css)*/
 
 .card{
