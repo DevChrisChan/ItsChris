@@ -56,6 +56,13 @@ body {
   text-decoration: none;
 }
 
+.link {
+  text-decoration-color: #EA215A;
+  text-decoration-thickness: .125em;
+  text-underline-offset: 1.5px;
+  text-decoration-style: dashed;
+}
+
 /* Card credits to Alombi (https://github.com/alombi/alombi.github.io/blob/master/Stylesheets/main.css)*/
 
 .card{
