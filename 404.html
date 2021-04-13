@@ -3,23 +3,17 @@
   <title>ItsChris - Page Not Found</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="refresh" content="3; URL='/'" />
-  <link rel="stylesheet" href="/styles/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+  <link rel="stylesheet" href="/styles/404.css" />
   <script src="https://kit.fontawesome.com/2f75161355.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="top">
-     <h1 class="title">Page not found.</h1>
-    <p class="description">
-      Back to home in <span id="counter">3</span> seconds.
-    </p>
-<script type="text/javascript">
-function countdown() {
-    var i = document.getElementById('counter');
-    if (parseInt(i.innerHTML)!=0) {
-    i.innerHTML = parseInt(i.innerHTML)-1;
-  }
-}
-setInterval(function(){ countdown(); },1000);
+<h1 id="404"></h1>
+
+<script>
+document.getElementById("404").innerHTML = 
+"Error 404: Page not found. /" + window.location.href "is not a valid page.";
 </script>
+
 </body>
 </html>
