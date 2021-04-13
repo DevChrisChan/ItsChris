@@ -44,6 +44,15 @@ body {
   font-weight: 400;
 }
 
+.banner {
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #ee2400;
+  color: #000000;
+  top: 0px;
+  text-align: center;
+}
+
 .spacer {
   line-height:12px;
 }
