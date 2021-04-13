@@ -44,6 +44,32 @@ body {
   font-weight: 400;
 }
 
+.nav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right !important;
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav.responsive {position: relative !important;}
+  .nav.responsive .icon {
+    position: absolute !important;
+    right: 0px !important;
+    top: 0px !important;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
 .banner {
   overflow: hidden;
   border-radius: 8px;
