@@ -27,10 +27,8 @@ body {
 }
 
 .navbutton {
-  border: 2px solid black;
+  border: 2px solid;
   border-radius: 5px;
-  background-color: white;
-  color: black;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
