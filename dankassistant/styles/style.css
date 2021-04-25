@@ -5,6 +5,10 @@ body {
     color: #ffffff;
 }
 
+h1 {
+    text-align: center;
+}
+
 .nav {
   overflow: hidden;
   border-radius: 8px;
@@ -35,6 +39,7 @@ body {
   border-color: #509624;
   color: #509624;
 }
+
 .navbutton:hover {
   background-color: #509624;
   color: white;
