@@ -44,3 +44,7 @@ h1, h3 {
   background-color: #509624;
   color: white;
 }
+
+.spacer {
+  height: 10px;
+}
