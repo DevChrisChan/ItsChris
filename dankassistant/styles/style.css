@@ -4,7 +4,7 @@ body {
     text-decoration: none !important;
     color: #ffffff;
     text-align: center;
-    font-weight: 900;
+    font-weight: 900 !important;
 }
 
 h1 {
@@ -75,7 +75,6 @@ h3 {
   border-radius: 100px;
   background-color: #509624;
   border: none;
-  color: #FFFFFF;
   text-align: center;
   font-size: 28px;
   padding: 20px;
