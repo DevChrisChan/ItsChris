@@ -38,11 +38,12 @@ h3 {
 .navbutton {
   border: 2px solid;
   border-radius: 5px;
-  padding: 30px 45px;
+  padding: 25px 45px;
   font-size: 16px;
   cursor: pointer;
   border-color: #509624;
   color: #509624;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbutton:hover {
