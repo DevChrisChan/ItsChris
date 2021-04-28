@@ -91,6 +91,11 @@ body {
   text-decoration: none;
 }
 
+.footer {
+  text-align: center !important;
+  opacity: 0.7;
+}
+
 /* Card credits to Alombi (https://github.com/alombi/alombi.github.io/blob/master/Stylesheets/main.css)*/
 
 .card{
