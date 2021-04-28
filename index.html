@@ -16,6 +16,7 @@
   <script src="https://kit.fontawesome.com/2f75161355.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="alert" style="text-align: center">This website is still in developement.<span class="alertclose">x</span></div>
   <div class="nav" id="navbar"><a href="/" style="text-decoration: none; float: left;"><img style='display:inline; height: 20px; width: 20px; vertical-align: middle;' src='/assets/pfp .PNG'/> ItsChris</a><a href="#contact" style="text-decoration: none; float: right;">Contact</a><a href="#projects" style="text-decoration: none; float: right;">Projects</a></div>
   <!--<div class="nav" id="navbar">
 <a href="/" style="text-decoration: none; color: #000000; "><img style='display:inline; height: 20px; width: 20px; vertical-align: middle;' src='/assets/pfp .PNG'/> ItsChris</a>
@@ -67,5 +68,14 @@
       <h1><a href="/redirect/github"><i class="fab fa-github"></i></a>  <a href="/redirect/discord"><i class="fab fa-discord"></i></a>  <a href="/redirect/twitter"><i class="fab fa-twitter"></i></a>  <a href="/redirect/reddit"><i class="fab fa-reddit"></i></a></h1>
     <div class="spacer"></div>
     <p style="opacity: 0.7; display: inline-block; vertical-align: middle;">The site was made by hand with HTML and CSS. You could view the source on <a href="https://github.com/DevChrisChan/ItsChris" target="_blank">GitHub</a>.</p>      
+    <script>
+      var close = document.getElementsByClassName("alertclose");
+      var i;
+      for (i = 0; i < close.length; i++) {
+        close[i].addEventListener("click", function() {
+        this.parentElement.style.display = 'none';
+  });
+}
+    </script>
     </body>
 </html>
