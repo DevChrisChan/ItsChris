@@ -24,6 +24,7 @@ body {
 }
 
 .nav {
+  z-index: 69;
   overflow: hidden;
   background-color: #f8f9f9;
   color: #000000;
