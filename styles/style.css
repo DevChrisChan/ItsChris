@@ -4,6 +4,7 @@
 
 body {
   background-color:#F8F9F9;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .notnav {
@@ -19,7 +20,7 @@ body {
 }
 
 .name {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico', cursive !important;
   white-space: nowrap;
 }
 
