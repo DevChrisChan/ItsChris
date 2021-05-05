@@ -21,10 +21,6 @@ body {
 .name {
   font-family: 'Pacifico', cursive !important;
   white-space: nowrap;
-  background: url(assets/hongkongflag.jpg);
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .nav {
