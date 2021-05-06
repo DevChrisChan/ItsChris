@@ -12,6 +12,9 @@
 <script type="text/javascript">
 function countdown() {
     var i = document.getElementById('timer');
+    if (i = NaN) {
+      i.innerHTML = "Please provide a valid number"
+    }
     if (parseInt(i.innerHTML)!=0) {
     i.innerHTML = parseInt(i.innerHTML)-1;
   }
