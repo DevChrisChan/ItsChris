@@ -71,7 +71,7 @@ function type_text()
   row=Math.max(0,index-7);
   while(row<index)
     contents += tl[row++] + '\r\n';
-  document.forms[0].elements[0].value = contents + tl[index].substring(0,text_pos) + "_";
+  document.forms[0].elements[0].value = contents + tl[index].substring(0,text_pos) + "|";
   if(text_pos++==str_length)
   {
     text_pos=0;
