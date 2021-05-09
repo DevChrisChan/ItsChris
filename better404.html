@@ -71,7 +71,7 @@ function type_text()
   row=Math.max(0,index-7);
   while(row<index)
     contents += tl[row++] + '\r\n';
-  document.forms[0].elements[0].value = contents + tl[index].substring(0,text_pos) + "|";
+  document.forms[0].elements[0].value = contents + tl[index].substring(0,text_pos) + "_";
   if(text_pos++==str_length)
   {
     text_pos=0;
@@ -96,7 +96,7 @@ function type_text()
 <td colspan="3">
 <table border="0" cellspacing="0" cellpadding="5">
 <tr><td>-->
-  <h2 align=center>Error 404<br></h2>
+  <h2 align=center>Error 404: Page not found.<br></h2>
   <h2 align=center>Back to <a href="/">home</a></h2>
 <p>
 <center>
