@@ -47,15 +47,15 @@
 </head>
 <body>
   <!--<img src="https://raw.githubusercontent.com/DevChrisChan/ItsChris/main/search/android-icon-192x192.png" alt="Search icon" style = "position: relative; top: 5px; left: 5px;"><form method="get" id="search">-->
-        <input type="text" name="search" id="search_id"  placeholder="Input URL here..."/>
+        <input type="url" name="search" id="search_id"  placeholder="Input URL here..."/>
     </form>
   <script>
 //     try {
 const queryString = new URLSearchParams(window.location.search);
      let url = queryString.get('search');
-    if (!url.includes('https://')) {
+/*    if (!url.includes('https://')) {
       url = 'https://' + queryString.get('search');
-    }
+    }*/
 //     if (url == "null") return;
     /*var pattern = new RegExp('^(https?:\\/\\/)?'+ // protocol
   '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.?)+[a-z]{2,}|'+ // domain name
