@@ -51,7 +51,8 @@
         <input type="text" name="search" id="search_id"  placeholder="Input URL here..."/>
     </form>
   <script>
-     const queryString = new URLSearchParams(window.location.search);
+     try {
+const queryString = new URLSearchParams(window.location.search);
      const url = queryString.get('search');
      if (url == "null") return;
     var pattern = new RegExp('^(https?:\\/\\/)?'+ // protocol
@@ -62,6 +63,9 @@
   '(\\#[-a-z\\d_]*)?$','i');
     if (!url.match(pattern)) return;
      window.location.href = url;
+     } catch (err) {
+       window.alert(err)
+     }
 </script>
     </body>
 </html>
