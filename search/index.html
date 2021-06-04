@@ -49,5 +49,10 @@
 <form method="get" id="search">
         <input type="text" name="search" id="search_id"  placeholder="Input URL here..."/>
     </form>
+  <script>
+     const queryString = new URLSearchParams(window.location.search);
+     const url = queryString.get('search');
+     window.location.href = url;
+</script>
     </body>
 </html>
