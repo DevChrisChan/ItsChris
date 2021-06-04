@@ -53,6 +53,7 @@
   <script>
      const queryString = new URLSearchParams(window.location.search);
      const url = queryString.get('search');
+     if (url == "null") return;
      window.location.href = url;
 </script>
     </body>
