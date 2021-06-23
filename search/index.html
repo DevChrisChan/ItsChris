@@ -11,7 +11,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="green">
   <meta name="apple-mobile-web-app-title" content="Search">
-  <!--<link rel="apple-touch-icon" sizes="57x57" href="/search/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/search/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/search/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/search/apple-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="76x76" href="/search/apple-icon-76x76.png">
@@ -27,7 +27,7 @@
 <link rel="manifest" href="/search/manifest.json">
 <meta name="msapplication-TileColor" content="#303135">
 <meta name="msapplication-TileImage" content="/search/ms-icon-144x144.png">
-<meta name="theme-color" content="#303135">-->
+<meta name="theme-color" content="#303135">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
   <link rel="stylesheet" href="/search/search.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -53,11 +53,10 @@
 //     try {
 const queryString = new URLSearchParams(window.location.search);
      let url = queryString.get('search');
-    if (url == null) return;
-/*    if (!url.includes('https://')) {
+    if (url == null) {return}
+    if (!url.includes('https://')) {
       url = 'https://' + queryString.get('search');
-    }*/
-//     if (url == "null") return;
+    }
     /*var pattern = new RegExp('^(https?:\\/\\/)?'+ // protocol
   '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.?)+[a-z]{2,}|'+ // domain name
   '((\\d{1,3}\\.){3}\\d{1,3}))'+ // OR ip (v4) address
