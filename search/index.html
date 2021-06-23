@@ -53,7 +53,7 @@
 //     try {
 const queryString = new URLSearchParams(window.location.search);
      let url = queryString.get('search');
-    if (url == null) {return}
+    //if (url == null) {return}
     if (!url.includes('https://')) {
       url = 'https://' + queryString.get('search');
     }
