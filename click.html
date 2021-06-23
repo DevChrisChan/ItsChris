@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>Clicker</title>
+</head>
+  <body>
+    <p><a href="javascript:clicker()" class="clicker" id="copy">Clicker</a></p>
+    <script>
+      function copyDiscord() {
+			var selectText = document.getElementById("TagName").innerHTML;
+			var input = document.createElement("input");
+			input.value = selectText;
+			document.body.appendChild(input);
+			input.select();
+			document.execCommand("copy");
+			document.body.removeChild(input);
+			if(typeof count === 'undefined') {
+				count = 1
+				document.getElementById('copy').innerHTML = "1"
+			} else if(count >= 1) {
+				count = count + 1
+				document.getElementById('copy').innerHTML = `${count}`
+				document.getElementById('copy').style.background = "#ED4245"
+			}
+		}
+    </script>
+  </body>
+</html>
