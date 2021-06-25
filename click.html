@@ -2,10 +2,10 @@
 <head>
   <title>Clicker</title>
 </head>
-  <body>
-    <p><a href="javascript:clicker()" class="clicker" id="copy">Clicker</a></p>
+  <body onclick=Clicker()>
+	  <p class="Clicker">Click anywhere to start</p>
     <script>
-      function clicker() {
+      function Clicker() {
 			var selectText = document.getElementById("TagName").innerHTML;
 			var input = document.createElement("input");
 			input.value = selectText;
