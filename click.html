@@ -2,7 +2,7 @@
 <head>
   <title>Clicker</title>
 </head>
-  <body>
+  <body onclick=Clicker();>
 	  <h1 id="copy">Click anywhere to start</h1>
     <script>
         function Clicker() {
@@ -14,7 +14,6 @@
                 document.getElementById('copy').innerHTML = `${count}`
             }
         }
-	    	    window.onclick = Clicker();
     </script>
   </body>
 </html>
